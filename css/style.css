@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li{
+    margin: 10px;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #97d5c9;
+}
+nav input{
+    padding: 15px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.sear {
+    border: none;
+    background-color: #97d5c9;
+    color: white;
+    padding: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/**End Nav Area**/
+
+
+.items img{
+    width: 100%;
+}
+.items h5{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+.items p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+.items a{
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    background-color: #f06060;
+    padding: 5px 10px;
+    border-radius: 2px;
+    align-items: center;
+}
+.items a:hover{
+    color: #97d5c9;
+}
+/**End Shoes Area**/
+
+
+.row h5{
+    font-weight: 600;
+}
+/**End Brands-Child Area**/
+
+
+.brands-text p{
+    font-size: 12px;
+    font-weight: 600;
+}
+.brands-logo img{
+    width: 100%;
+    padding: 15px;
+}
+/**End Brands Area**/
+
+
+.hope img{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+.hope h5{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.hope h1{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/**End Discount Area**/
+
+.coats-text p{
+    font-size: 12px;
+    font-weight: 600;
+}
+.jackets img{
+    width: 100%;
+    cursor: pointer;
+}
+.jackets h5{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.jackets p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 5px;
+    cursor: pointer;
+}
+/**New In**/
+.coats-text h2{
+    font-size: 40px;
+    font-family: ital;
+    font-weight: 700;
+    padding-top: 15px;
+}
+.jackets h4{
+    text-align: center;
+    font-size: 20px;
+    font-family: ital;
+    font-weight: 600;
+    padding-top: 15px;
+    cursor: pointer;
+}
+/**End Jackets Area**/
+
+
+ .about{
+    background-color: #f7efef;
+}
+
+.row h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.row p{
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.row li{
+    list-style: none;
+    line-height: 25px;
+}
+
+.row li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+}
+
+.row li a:hover{
+    color: #97d5c9;
+}
+.shape{
+    display: flex;
+    position: relative;
+    padding-top: 10px;
+}
+.shape-ins i{
+    position: absolute;
+    bottom: 24px;
+    left: 16px;
+}
+.shape-fab i{
+    position: absolute;
+    bottom: 24px;
+    left: 68px;
+}
+.shape-wifi i{
+    position: absolute;
+    bottom: 18px;
+    left: 115px;
+}
+.shape a{
+    color: black;
+}
+.shape a:hover{
+    color: #97d5c9;
+}
+.submit a{
+    color: black;
+}
+.submit a:hover{
+    color: #97d5c9;
+}
+.submit input{
+    padding: 15px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.submit input::placeholder{
+    color: black;
+    font-weight: 500;
+}
+ .ok{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/**End About Area**/
+
+
+.payment h3{
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.payment img{
+    height: 30px;
+    cursor: pointer;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+  }
+  
+  .billing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    min-height: 100vh;
+  }
+  
+  .billing form{
+    padding:20px;
+    width:700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  }
+
+  .proceed{
+    background-color:#97d5c9;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
